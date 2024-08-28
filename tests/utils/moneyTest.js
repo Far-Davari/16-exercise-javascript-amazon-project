@@ -16,5 +16,5 @@ describe("test suite: formatCurrency", () => {
 
   it("works with negative numbers", () => {
     expect(formatCurrency(-200)).toEqual("-2.00");
-  })
+  });
 });
